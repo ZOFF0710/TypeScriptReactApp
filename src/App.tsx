@@ -29,7 +29,7 @@ export default function App() {
   return (
     <main>
       <Header image={{ src: reactImg, alt: "vite image" }}>
-        <h1>Aha!</h1>
+        <h1>🏁私のゴール：</h1>
       </Header>
 
       <NewGoal onAddGoal={handleAddGoal} />
